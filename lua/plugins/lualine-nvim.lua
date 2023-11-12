@@ -9,6 +9,7 @@ local config = function()
     },
     sections = {
       lualine_a = {{ 'buffers', }},
+      lualine_x = { "encoding", { "fileformat", symbols = {unix = "" } }, "filetype" },
     }
   }
 end
