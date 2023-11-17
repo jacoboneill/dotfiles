@@ -40,12 +40,3 @@ local opts = {
 }
 
 require('lazy').setup('plugins', opts)
-
-local ensure_installed = {
-  'sumneko_lua',
-}
-
-require('mason').setup()
-require('mason-lspconfig').setup({ ensure_installed = ensure_installed })
-
-require('lsp-config').sumneko_lua.setup {}
