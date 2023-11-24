@@ -15,11 +15,12 @@ local config = function()
 				i = {
 					["<C-j>"] = "move_selection_next",
 					["<C-k>"] = "move_selection_previous",
-          ["<C-q>"] = "close",
+          ["<C-.>"] = file_browser.actions.toggle_hidden,
 				},
         n = {
           ["q"] = "close",
-          ["a"] = file_browser.actions.create
+          ["a"] = file_browser.actions.create,
+          ["."] = file_browser.actions.toggle_hidden,
         },
 			},
 		},
