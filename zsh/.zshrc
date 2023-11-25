@@ -138,7 +138,6 @@ alias glod="git log --oneline --pretty='%C(yellow)%h %C(blue)%ad %C(auto)%s' --d
 
 #bat alias
 alias cat="bat"
-alias catt="cat"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
