@@ -1,13 +1,10 @@
 # Tap Homebrew
 tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "homebrew/cask-fonts"
-tap "homebrew/core"
 tap "homebrew/services"
 
 # Themes and Fonts
 tap "romkatv/powerlevel10k"
-brew "romkatv/powerlevel10k/powerlevel10k"
 cask "font-roboto-mono-nerd-font"
 
 # Software
