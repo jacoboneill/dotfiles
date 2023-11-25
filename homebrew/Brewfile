@@ -32,6 +32,7 @@ brew "yarn"
 cask "discord"
 cask "figma"
 cask "google-chrome"
+cask "obsidian"
 cask "spotify"
 cask "whatsapp"
 mas "Bitwarden", id: 1352778147
