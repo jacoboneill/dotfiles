@@ -14,3 +14,4 @@ brew bundle install;
 ln -fs ~/.config/git/.gitconfig ~/.gitconfig
 ln -fs ~/.config/zsh/.p10k.zsh ~/.p10k.zsh
 ln -fs ~/.config/zsh/.zshrc ~/.zshrc
+ln -fs ~/.config/tmux/.tmux.conf ~/.tmux.conf
