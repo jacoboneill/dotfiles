@@ -1,0 +1,43 @@
+# Tap Homebrew
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/core"
+tap "homebrew/services"
+
+# Themes and Fonts
+tap "romkatv/powerlevel10k"
+brew "romkatv/powerlevel10k/powerlevel10k"
+cask "font-roboto-mono-nerd-font"
+
+# Software
+## Version Control
+brew "gh"
+brew "git"
+brew "git-lfs"
+brew "mas"
+
+## Terminal and Tools
+brew "bat"
+brew "imagemagick"
+brew "neovim"
+brew "ripgrep"
+brew "tmux"
+cask "alacritty"
+
+## Software Development
+brew "gcc"
+brew "go"
+brew "nvm"
+brew "yarn"
+
+## Misc.
+cask "discord"
+cask "figma"
+cask "google-chrome"
+cask "spotify"
+cask "whatsapp"
+mas "Bitwarden", id: 1352778147
+mas "Final Cut Pro", id: 424389933
+mas "Logic Pro", id: 634148309
+mas "Magnet", id: 441258766
