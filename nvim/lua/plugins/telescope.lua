@@ -38,7 +38,7 @@ local telescope = {
 	keys = {
 		mapkey("<leader>fk", "Telescope keymaps", "n"),
 		mapkey("<leader>fh", "Telescope help_tags", "n"),
-		mapkey("<leader>ff", "Telescope find_files", "n"),
+		mapkey("<leader>ff", "Telescope find_files hidden=true", "n"),
 		mapkey("<leader>fg", "Telescope live_grep", "n"),
 		mapkey("<leader>fx", "Telescope buffers", "n"),
     mapkey("<leader>fb", "Telescope file_browser path=%:p:h select_buffer=true", "n"),
