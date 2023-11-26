@@ -33,3 +33,5 @@ dockutil -a ~/Downloads/ --display stack --restart;
 
 brew uninstall --cask dockutil;
 brew autoremove;
+
+zsh
