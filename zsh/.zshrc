@@ -12,7 +12,7 @@ fi
 export PATH=$(brew --prefix)/bin:$PATH:~/.local/bin
 
 # Path to your oh-my-zsh installation.
-export ZSH="$HOME/.oh-my-zsh"
+export ZSH="$HOME/.config/zsh/.oh-my-zsh"
 
 # Remove brew env hints
 export HOMEBREW_NO_ENV_HINTS=TRUE
