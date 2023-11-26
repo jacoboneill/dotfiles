@@ -1,3 +1,6 @@
-# Ignore all plugins except tpm for tmux
+# Tmux
 tmux/plugins/*
 !tmux/plugins/tpm
+
+# ZSH
+zsh/.zsh_history
