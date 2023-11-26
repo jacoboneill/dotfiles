@@ -4,7 +4,6 @@ tap "homebrew/cask-fonts"
 tap "homebrew/services"
 
 # Themes and Fonts
-tap "romkatv/powerlevel10k"
 cask "font-roboto-mono-nerd-font"
 
 # Software
