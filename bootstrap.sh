@@ -12,9 +12,7 @@ ln -fs ~/.config/homebrew/Brewfile ~/Brewfile &&
 brew bundle install;
 
 # Symlink
-ln -fs ~/.config/homebrew/Brewfile ~/Brewfile;
 ln -fs ~/.config/tmux/.tmux.conf ~/.tmux.conf;
-ln -fs ~/.config/zsh/.p10k.zsh ~/.p10k.zsh;
 ln -fs ~/.config/zsh/.zshrc ~/.zshrc;
 
 # Dock
