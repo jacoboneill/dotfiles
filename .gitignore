@@ -1,3 +1,6 @@
 # Ignore all plugins except tpm for tmux
 tmux/plugins/*
 !tmux/plugins/tpm
+
+# Ignore .oh-my-zsh plugins
+zsh/.oh-my-zsh/custom/*
