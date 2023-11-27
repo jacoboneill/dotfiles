@@ -4,3 +4,4 @@ tmux/plugins/*
 
 # ZSH
 zsh/.zsh_history
+zsh/.zsh_history.new
