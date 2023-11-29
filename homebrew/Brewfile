@@ -15,6 +15,7 @@ brew "mas"
 
 ## Terminal and Tools
 brew "bat"
+brew "htop"
 brew "imagemagick"
 brew "neovim"
 brew "ripgrep"
