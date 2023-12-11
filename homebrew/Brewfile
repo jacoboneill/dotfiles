@@ -23,6 +23,7 @@ brew "tmux"
 cask "alacritty"
 
 ## Software Development
+brew "cmake"
 brew "gcc"
 brew "go"
 brew "nvm"
