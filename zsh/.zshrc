@@ -24,13 +24,8 @@ plugins=(
  zsh-syntax-highlighting 
 )
 
-# Aliases
-alias cat="bat"
-alias g++="/usr/local/bin/g++-13"
-alias gg="lazygit"
-alias glod="git log --oneline --pretty='%C(yellow)%h %C(blue)%ad %C(auto)%s' --date=format:'%d/%m/%Y %H:%M:%S'" 
-alias la="ls -la"
-
 # Sources
 source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
+
+source ~/.config/zsh/.zsh_aliases
